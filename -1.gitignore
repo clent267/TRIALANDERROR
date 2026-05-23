@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+vendor/
+node_modules/
+
+# Runtime
+runtime/
+tmp/
+logs/
+*.log
+
+# PHP
+*.php~
+.phpunit.result.cache
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive files
+*.key
+*.pem
+config/database.php
